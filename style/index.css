@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.Why-Choose-Us {
+  padding-top: 119px;
+}
+.Why-Choose-Us-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Why-Choose-Us-h1 {
+  color: #353434;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}
+.Why-Choose-Us-p {
+  margin-left: 350px;
+  width: 543px;
+  height: 48px;
+  color: #a8a8a8;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+.Trusted {
+  padding-left: 37px;
+  width: 350px;
+  height: 254px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.Trusted:hover {
+  transition: 0.3s;
+  box-shadow: 200px;
+  cursor: pointer;
+  background: #f9faff;
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+  margin-top: -10px;
+}
+.Trusted-img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #6156dc;
+  padding: 13px;
+}
+.Trusted-p {
+  color: #323232;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+.Trusted-p2 {
+  color: #8f8f8f;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  width: 276px;
+  height: 66px;
+}
+.s-info {
+  display: flex;
+  gap: 30px;
+  margin-left: 70px;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+.Easy-to-Use-img {
+  background-color: #ef6010;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  padding: 13px;
+}
+.Faster-img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 7px;
+}
+@media (max-width: 1200px) {
+
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .Why-Choose-Us-h1 {
+    text-align: start;
+  }
+  .Why-Choose-Us-p {
+    text-align: center;
+    margin-left: -50px;
+  }
+  .s-info {
+    width: 730px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -115px;
+  }
+  
+}
+@media (max-width:576px ){
+  .container{
+    max-width: 540px;
+    margin: 0 auto;
+  }
+   .Why-Choose-Us-h1{
+    text-align: center;
+    
+  }
+  .Why-Choose-Us-p{
+    text-align: center;
+    font-size: 14px;
+  }
+  .Trusted{
+    width:100% ;
+    margin-left:100px ;
+    transition: 0.3s;
+  }
+  .Trusted:hover{
+    transition: 0.3s;
+  box-shadow: 200px;
+  cursor: pointer;
+  background: #f9faff;
+  box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+  margin-top: -10px;
+  }
+  .Trusted-p2{
+    width: 500px;
+  }
+
+}
